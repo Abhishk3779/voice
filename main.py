@@ -46,8 +46,8 @@ def run_alexa():
      elif 'date' in command:
          talk('SORRY,I have a headache ')
      elif 'are you single' in command:
-         talk('Sorry , in a relationship')
-     elif 'joke' in command:
+         talk('Sorry ,I am in a relationship')
+     elif 'jokes' in command:
          talk(pyjokes.get_joke())
      else:
          talk('Please say the command again.')
